@@ -100,7 +100,7 @@ contactForm.addEventListener('submit', (e) => {
     }
     
     // Show success message
-    alert(`Merci ${name}! Votre message a été reçu. Je vous répondrai bientôt.`);
+    alert(`Merci ${name}! Votre message n'a pas été envoyer, ceci est une demonstration.`);
     
     // Reset form
     contactForm.reset();
