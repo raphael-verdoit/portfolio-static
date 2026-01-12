@@ -70,3 +70,6 @@ Options -Indexes
     RewriteRule ^.* - [F,L]
 </IfModule>
 
+<FilesMatch "\.pdf$">
+    Header set X-Robots-Tag "noindex, noarchive, nosnippet"
+</FilesMatch>
